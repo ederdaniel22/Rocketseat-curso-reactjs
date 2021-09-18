@@ -40,4 +40,23 @@ atualizamos as configurações no webpack config com a linha abaixo do resolve
 essa configuração vai automatizar a reinicialização
 
 Para rodar o projeto a partir dessa configuração usamos
-## yarn webpack server
+## yarn webpack serve
+
+Configurar o source-map no webpack.config.js para visualizar erros na aplicação
+no module.exports abaixo do mode devlopment inserir:
+## devtool: 'eval-source-map',
+
+Criar a variável NODE_ENV com:
+## NODE_ENV=production yarn webpack
+
+Instalar o CrossEnv
+## yarn add cross-env -D
+
+criar no package json os scripts
+## "scripts":{
+##    "dev": "webpack serve",
+##    "build": "cross-env NODE_ENV=production webpack"
+##  },
+
+A partir desse momento para rodar o projeto usamos 
+## yarn dev
