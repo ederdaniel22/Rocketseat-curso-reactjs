@@ -71,4 +71,5 @@ depois inserir a linha:
 ## use: ['style-loader', 'css-loader', 'sass-loader']
 
 Atualizamos a aplicação instalando o sass
+## yarn add node-sass -D
 ## yarn add sass-loader D
