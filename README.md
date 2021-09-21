@@ -60,3 +60,15 @@ criar no package json os scripts
 
 A partir desse momento para rodar o projeto usamos 
 ## yarn dev
+
+Criar pasta styles e dentro dela o arquivivo:
+## global.css
+
+criar no webpack.config.js mais um rules para que o projeto entenda css também
+Retirar deste rules o babel loader, instalar as dependências 
+## yarn add style-loader css-loader -D
+depois inserir a linha:
+## use: ['style-loader', 'css-loader', 'sass-loader']
+
+Atualizamos a aplicação instalando o sass
+## yarn add sass-loader D
