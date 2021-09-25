@@ -234,3 +234,10 @@ Para renderizar importá-lo no app
 ## import { Counter } from './components/Counter'
 E integrá-lo na função
 ## <Counter />
+
+Atualizado até aula de Estado de componente
+Inicializando com:
+## yarn dev
+
+IMUTABILIDADE: CONCEITO => Uma variável nunca poderá ser mudada, ela poderá receber novos valores em uma outra variável, 
+mas a principal não será alterada
