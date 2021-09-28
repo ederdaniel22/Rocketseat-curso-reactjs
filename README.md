@@ -239,5 +239,40 @@ Atualizado até aula de Estado de componente
 Inicializando com:
 ## yarn dev
 
-IMUTABILIDADE: CONCEITO => Uma variável nunca poderá ser mudada, ela poderá receber novos valores em uma outra variável, 
-mas a principal não será alterada
+IMUTABILIDADE: CONCEITO => Uma variável nunca poderá ser mudada, ela poderá receber novos valores em uma outra variável, mas a principal não será alterada.
+Exemplo: usuarios = ['Eder', 'Daniel']
+        novoUsuarios = [...usuarios, 'Domingues']
+
+Instalação do:
+## yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+e adicionamos mais configurações ao webpack.config.js 
+
+Criação do arquivo:
+## repositories.scss
+Para estilização dos formulários
+
+Para deixar os projeto de maneira dinâmica fizemos o import da lista dos repositórios do github
+Meus repositórios
+## https://api.github.com/users/ederdaniel22
+Usado no projeto
+## https://api.github.com/orgs/rocketseat/repos
+
+Implementamos a utilização do useState e useEffect para tornar dinâmico o projeto, finalizamos a configuração do RepositoryList deicando dinâmico.
+
+Iniciamos a implementação do Typescript no projeto, o uso do typescript é feito sómente no ambiente de programação, quando subir para produção o
+código será transformado em JavaScript, a vantagem de usar Typescript é que ele ajuda na montagem do código, só tirando a mensagem de erro quando
+a configuração estiver completa.
+## yarn add typescript -D
+Para rodar o Typescript no projeto digitar no console:
+## yarn tsc --init
+
+Criamos e configuramos o arquivo tsconfig.json
+Configurar o 
+## tsconfig.json
+
+Instalar a dependência do babel para typescript de
+## yarn add @babel/preset-typescript -D
+Instalar @types/react-dom 
+## yarn add @types/react-dom -D
+## yarn add @types/react -D
+Converter os arquivos para tsx
